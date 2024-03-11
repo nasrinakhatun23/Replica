@@ -1,0 +1,780 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+.para{
+    margin-left: 500px;
+    position: relative;
+    bottom: 10px;
+}
+
+.selectt1{
+    margin-left: 1100px;
+    position: relative;
+    bottom: 26px;
+    
+}
+
+.icons{
+    margin-left: 20px;
+    position: relative;
+    top: 18px;
+    
+    
+}
+
+#icon{
+    margin: 10px;
+    color: rgb(154, 149, 149); 
+    background: rgb(199, 191, 191);
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 2px;
+   
+}
+
+.mainboder{
+    position: relative;
+    bottom: 20px;
+    border: 1px solid gray;
+    font-size: 14px;
+    color: grey;
+    height: 70px;
+}
+
+.input{
+   width: 700px;
+   height: 34px;
+   position: relative;
+   left: 300px;
+   bottom: 74px;
+   padding: 10px;
+   
+
+}
+
+#search{
+    position: relative;
+    bottom: 74px;
+    left: 250px;
+}
+
+.com{
+    color: rgb(255, 31, 68);
+    font-size: 40px;
+    margin: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.shoping{ 
+    position: relative;
+    bottom: 110px; 
+    display: inline;
+    margin-left: 1050px;
+    left: 50px;
+    color: grey; 
+    padding: 10px;
+    
+
+}
+
+ #shop{
+    margin: 10px;
+} 
+
+
+select{
+    border: 1px solid white;
+    color: grey;
+}
+
+.mainboder1{
+    height: 50px;
+    
+}
+
+.navigation ul li{
+    display: inline;
+    margin-left: 40px;
+   
+}
+.navigation ul{
+    text-align: center;
+    margin: 10px;
+}
+
+.banner{
+    background-image: url(./banner-1.jpg);
+    background-size: cover;
+    height: 80vh;
+    padding: 20px;
+    /* width: 98vw; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    
+}
+
+.chotadiv{
+    height: 100px;
+    width: 800px;
+    margin: 30px;
+    padding: 30px;
+} 
+
+.paragraph{
+    font-size: 50px;
+    color: rgb(255, 31, 68);
+    
+}
+
+.heading1{
+    font-size: 56px;
+    color: 10px solid black;
+}
+
+.starting{
+    font-size: 50px;
+}
+
+strong{
+    font-size: 70px;
+}
+
+.shopnow{
+    background-color:  rgb(255, 31, 68);
+    border: 1px solid  rgb(255, 31, 68); 
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+
+ /* ==========ONE CONTAINER FOR SMALL BLOCK=================  */
+.one_small_block{
+    width: 290px;
+    border-radius: 3px;
+    border: 1px solid rgb(194, 190, 190);
+    margin: 1% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.svg_icon{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(210, 210, 210);
+}
+
+.top_text{
+    margin: 8px;
+    padding: 7px;
+    height: 100%;
+    width: 65%;
+   
+}
+
+.num1{
+    position: relative;
+    left: 160px;
+    bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+
+.dress1{
+    font-weight: bold;
+}
+
+.show_all{
+    color: rgb(255, 31, 68);
+    text-decoration: none;
+}
+
+.one_small_block:hover{
+    box-shadow: 0px 0px 4px lightgreen ;
+}
+
+/* <!-- ==========ONE CONTAINER FOR SMALL BLOCK================= --> */
+.main-width{
+    padding: 0% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.left_aside_svg{
+    width: 35px;
+    height: 35px;
+    margin-left: 6%;
+    /* border: 1px solid grey; */
+    display: flex;
+    margin-top: 26px;
+    
+}
+
+.asider{
+    width: 30%;
+    /* border: 1px solid red; */
+   
+    /* height: min-content; */
+    
+    
+}
+
+.sticke{
+    position: sticky;
+    top: 0px; 
+}
+
+.Category{
+    font-size: 1.5em;
+    margin-left: 2%;
+    margin: 14% 0px;
+    margin-top: 6px;
+}
+
+.longg_container{
+    width: 60%;
+    border-radius: 3px;
+    margin-left: 8%;
+}
+
+.text_plus{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 4%;
+    margin-top: 10px;
+
+}
+
+#plus{
+    position: relative;
+    left: 180px;
+    font-size: 12px;
+}
+
+.amount{
+    text-decoration-line: line-through;
+    color:rgb(150, 150, 150);
+}
+
+.fa-star{
+    font-size:15px;
+    color:orange;
+}
+
+.fa-star-o{
+    font-size:15px;
+    color:orange;
+}
+
+.amount1{
+    font-weight: bold;
+    color:rgb(80, 80, 80);
+    margin-left: 3%;
+}
+
+.one_block{
+    display: flex;
+    border: 1px solid rgb(199, 193, 193) ;
+    height: 40%;
+    width: 100%;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin: 16px;
+   
+}
+
+.best_seller{
+    margin-top: 40px;
+    margin: 40px;
+
+
+}
+
+.fabric{
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.paara{
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+.one_block1{
+    display: flex;
+    border: 1px solid rgb(199, 193, 193) ;
+    height: 40%;
+    width: 65%;
+    border-radius: 3px;
+    padding-top: 10px;
+    
+}
+.rin{
+    font-size: 1.6em;
+    border-bottom: 1px solid grey;
+    width: 200px;
+    margin-left: 18px;
+     
+
+}
+
+.one_black_main{
+    width: 80%;
+    justify-content: start;
+    border-radius: 3px; 
+    display: flex;
+    border: 1px solid gray;
+    margin: 2% 0%;
+    padding: 8px;
+   
+
+}
+
+.relaxed{
+    font-weight: bold;
+}
+
+.grey{
+    color: gray;
+}
+
+.fortyfive{
+    color: rgb(255, 113, 135);;
+}
+
+.long_container_main{
+     margin-top: 20px;
+     
+}
+
+.main_center{
+    width: 70%;
+    /* border: 1px solid green; */
+}  
+
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+ .deal{
+    margin-bottom: 5%;
+    border-bottom: 1px solid grey;
+    
+    
+} 
+
+ .midingbox_bpic{
+    border: 1px solid grey;
+    border-radius: 5px;
+  
+} 
+
+
+.mainbig_wrapper{
+    display: flex;
+       
+}
+
+.sectiongbigphoto{
+    margin-top: 40px;
+    
+}
+
+.strong{
+  color: rgb(255, 113, 135);
+  font-size: 2em;
+}
+
+.twohundred{
+    color: rgb(180,180,180);
+    font-size: 2em;
+    text-decoration-line: line-through;
+    margin-left: 5%;
+
+}
+
+
+.all_content {
+    font-size: 1em;
+    padding: 3%;
+    padding-right: 5%;
+    width: 50%;
+    
+  } 
+
+  .chotasquare_div{
+    display: flex;
+    
+  }
+
+  .chotasquare {
+    text-align: center;
+    width: 15%;
+    border-radius: 3px;
+    background-color: rgb(203, 200, 200);
+    /* padding: 8%; */
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 14px;
+  }
+
+  .strong1{
+    font-size: 16px;
+  }
+
+  .progress_bar {
+    margin: 2% 0%;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(203, 200, 200);
+    padding: 2px 2px;
+    border-radius: 5px;
+  }
+  
+  .pink {
+    height: 6px;
+    width: 40%;
+    background-color: rgb(249, 151, 167);
+    border-radius: 5px;
+  }
+
+ 
+
+  .strongg{
+    font-size: 20px;
+  }
+
+  .hurry{
+    color: grey;
+  }
+
+    .midingbox_bpic{
+    display: flex;
+    width: 100%;
+   
+  }    
+
+  .shampoo{
+   
+    /* border: 1px solid gray; */
+    width: 40%;
+  }
+
+
+.new{
+    border-bottom: 1px solid grey; 
+}
+
+.itemss{
+    width: 20%;
+    margin: 1%;
+    border-radius: 4px;
+
+  }
+
+  .itemss:hover {
+    box-shadow: 0px 0px 5px gray;
+  }
+
+
+  .name {
+    color: pink;
+  }
+  .grey {
+    color: grey;
+    font-size: 12px;
+  }
+  
+  .text_all {
+    margin: 4%;
+    
+  }
+
+  .fortyy{
+    font-size: 20px;
+  }
+
+  .itemss{
+    border: 1px solid gray;
+
+  }
+
+
+  .small_block_section{
+  
+  }
+
+
+  .block_wrapper {
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text_all_rin{
+    margin-left: 10px;
+  }
+ 
+   /* ===========THREE MAIN PHOTOS BOTTOM MOST STARTS FROM HERE==================  */
+
+   .girl{
+    border-radius: 100%;
+    width: 60%;
+    align-items: center;
+   }
+
+   
+   .leftmostpart {
+     padding: 20%;
+     text-align: center;
+   }
+
+   .paralorem{
+    font-size: 22px;
+    text-align: center;
+    
+    
+   }
+
+   .work {
+    font-size: 16px;
+  }
+
+  .nameuser {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .fa-quote-left{
+    color: rgb(248, 161, 176);
+
+  }
+
+  .test1{
+    border-bottom: 1px solid grey;
+    font-size: 30px;
+    text-align: center;
+    padding: 18px;
+    
+    
+    
+  }
+
+  .mainleft{
+    border: 1px solid rgb(206, 204, 204);
+    /* padding-top: 2%; */
+    width: 25%;
+    height: 40%;
+    border-radius: 5px; 
+    
+  }
+
+  .midpic{
+    background-image:url(cta-banner.jpg);
+    width: 40%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* background-size: contain; */
+    /* margin: 30px; */
+    border-radius: 5px;
+    
+  }
+
+  .threepic1{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    margin: 4% 0%;
+    
+  }
+
+  .textforpic {
+    margin:  40% auto;
+    width: 50%;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    padding: 5%;
+    border-radius: 5px;
+
+  }
+  .discount{
+    border: 1px solid grey;
+    width: 50%;
+    color: white;
+    background-color: black;
+    margin-left: 40px;
+    
+  }
+
+  .summer{
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .shopp{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(94, 92, 92) ;
+  }
+
+  .mainlef {
+    width: 20%;
+    height: 35%; 
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 5px;
+    
+   
+  }
+
+  .our{
+    border-bottom: 1px solid grey;
+    font-size: 30px;
+    padding: 18px;
+  }
+
+  .toptext{
+     font-weight: bold;
+     font-size: 20px;
+     color: rgb(66, 62, 62);
+  }
+
+  .bottomtext{
+    color: gray;
+  }
+
+  .blocker{
+     display: flex;
+     padding-bottom: 36px;
+     
+  }
+
+.rightmostpart{
+     padding: 10px;
+
+  }
+
+  .main_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2% 0%;
+  }
+
+  .one_card {
+    width: 22%;
+    border-radius: 5px;
+  }
+
+  .lady{
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .branddirectory {
+     padding: 3% 9%; 
+     border-bottom: 1px solid grey; 
+     background-color: black;
+     color: white; 
+     width: auto; 
+  }
+
+  
+
+
+  .unoderlist {
+    margin: 1.5% 0%;
+  }
+  .unoderlist li {
+    display: inline;
+    font-size: 0.9em;
+  }
+  
+  .unoderlist a {
+    text-decoration: none;
+    color: grey;
+  }
+
+
+ 
+  .poppularmain {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-bottom: 1px solid grey;
+    padding-left: 6%;
+    
+  }
+
+
+  .mainhead {
+    padding: 3% 2%;
+    
+  }
+  
+  .mainhead p {
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .mainhead li a  {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: grey;
+
+  }
+
+ .imageseeq{
+    background-color: black;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 35px;
+    color: white;
+    
+ }
+
+ .Copyright{
+    font-size: 14px;
+ }
+
+
+ .detailsd{
+ font-weight: bold;
+ margin: 4px;
+ }
+
+
+
+
+ 
+
+
+    
+
+
+
+
+
+
+
+
+
+
